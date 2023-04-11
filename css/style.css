@@ -1,0 +1,72 @@
+* {
+    color: black;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    color: white;
+    padding: 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+.column-2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.column-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-5 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-6 {
+    width: 50%;
+    float: left;
+}
+
+img {
+    width: 20px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    text-align: left;
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .column-4 {
+        width: 100%;
+    }
+    .column-5 {
+        width: 100%;
+        float: left;
+    }
+    .column-6 {
+        width: 100%;
+        float: left;
+    }
+}
