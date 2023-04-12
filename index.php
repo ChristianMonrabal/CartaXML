@@ -5,17 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>IL DIAVOLO</title>
-    <link rel="shortcut icon" href="./img/diablo.png">
+    <title>Sabor & Punto</title>
+    <link rel="shortcut icon" href="./img/icon.webp">
 </head>
 <body>
-<div class='column-1'>
-    <h1>IL DIAVOLO</h1>
+    <div class='column-1'>
+        <h1 style="color: black;">Sabor & Punto</h1>
     </div>
-    <div class='column-2'>
-    <h2>Menú</h2>
-    </div>
-
 <?php
 
 if (file_exists('xml/carta.xml')) {

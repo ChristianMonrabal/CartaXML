@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu>
-
+<!--Entrantes-->
     <plato tipo8="Entrantes">
       <title>Tosta de Foie</title>
       <description> Tostadas huntadas con foie a la plancha con cebolla caramelizada </description>
@@ -51,7 +51,7 @@
       <item tema2="picante"></item>
       </caracteristicas>
     </plato>
-
+<!--Pizzas-->
     <plato tipo9="Pizzas">
       <title> Pizza Prosciutto</title>
       <description>Tomate, mozzarella y jamón dulce</description>
@@ -101,7 +101,7 @@
           <item tema="carne" tema3="pizza"></item>
       </caracteristicas>
     </plato>
-
+<!--Pastas-->
       <plato tipo10="Pastas">
       <title>Macarrones</title>
       <description>Pasta con salsa a elegir entre: Carbonara, Boloñesa, Pesto, Puttanesca o Funghi</description>
@@ -131,7 +131,7 @@
       <item tema6="pasta"></item>
       </caracteristicas>
     </plato>
-    
+<!--Ensaladas-->
     <plato tipo11="Ensaladas">
       <title>Ensalada Heidi</title>
       <description>Mezclum de hojas, fresas, jamón serrano, rulo de cabra gratinado y reducción de modena con frutos secos</description>
@@ -161,7 +161,7 @@
       <item tema4="vegetal"></item>
       </caracteristicas>
     </plato>
-  
+<!--Hamburguesas--> 
     <plato tipo12="Hamburguesas">
       <title>Burger con patatas</title>
       <description>Black angus 100% y queso cheddar</description>
@@ -211,7 +211,7 @@
       <item tema12="burger" tema4="vegetal"></item>
       </caracteristicas>
   </plato>
-
+<!--Platos sin gluten-->
   <plato tipo13="Sin gluten">
       <title> Pizzas sin gluten</title>
       <description>Pide la pizza que mas te guste de la carta y marca la casilla sin gluten</description>
@@ -241,7 +241,7 @@
       <item tema11="singluten" tema="carne" tema5="star"></item>
       </caracteristicas>
   </plato>
-
+<!--Postres-->
   <plato tipo14="Postres">
       <title> Tarta cheesecake</title>
       <description>Tarta echa con base de queso y acompañada con frutos del bosque</description>
@@ -271,17 +271,7 @@
       <item tema10="postre"></item>
       </caracteristicas>
   </plato>
-
-  <plato tipo14="Postres">
-      <title>Helado natural</title>
-      <description>Helado natural con sabor a elegir entre: Fresa, Chocolate, Menta, Vainilla o Fresa</description>
-      <precio>3,50€</precio>
-      <calorias>100 calorias</calorias>
-      <caracteristicas>
-      <item tema8="helado"></item>
-      </caracteristicas>
-  </plato>
-
+<!--Infantil-->
   <plato tipo15="Infantil">
       <title>Primer plato</title>
       <description>Nuggets de pollo con pattaas fritas para los mas peques</description>
@@ -302,7 +292,6 @@
       </caracteristicas>
   </plato>
 
-  
   <plato tipo15="Infantil">
       <title>Postre</title>
       <description>Helado de sabor a elegir</description>
@@ -312,5 +301,4 @@
       <item tema7="infantil" tema8="helado"></item>
       </caracteristicas>
   </plato>
-
 </menu>
