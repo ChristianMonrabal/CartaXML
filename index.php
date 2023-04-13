@@ -26,7 +26,7 @@ echo"<div class='column-4'>";
 $aux=[];
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo8'],$aux)){
-        echo '<h1>'.$plato['tipo8'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo8'].'</h2>'; 
         array_push($aux,(string)$plato['tipo8']);
     }
     if($plato['tipo8']=='Entrantes'){
@@ -56,7 +56,7 @@ echo"<div class='column-4'>";
 $aux=[];
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo9'],$aux)){
-        echo '<h1>'.$plato['tipo9'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo9'].'</h2>'; 
         array_push($aux,(string)$plato['tipo9']);
     }
     if($plato['tipo9']=='Pizzas'){
@@ -93,7 +93,7 @@ echo"</div>";
 echo"<div class='column-4'>";
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo12'],$aux)){
-        echo '<h1>'.$plato['tipo12'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo12'].'</h2>'; 
         array_push($aux,(string)$plato['tipo12']);
     }
     if($plato['tipo12']=='Hamburguesas'){
@@ -131,7 +131,7 @@ echo"<div class='column-6'>";
 $aux=[];
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo10'],$aux)){
-        echo '<h1>'.$plato['tipo10'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo10'].'</h2>'; 
         array_push($aux,(string)$plato['tipo10']);
     }
     if($plato['tipo10']=='Pastas'){
@@ -155,7 +155,7 @@ echo"</div>";
 echo"<div class='column-6'>";
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo11'],$aux)){
-        echo '<h1>'.$plato['tipo11'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo11'].'</h2>'; 
         array_push($aux,(string)$plato['tipo11']);
     }
     if($plato['tipo11']=='Ensaladas'){
@@ -183,7 +183,7 @@ echo"</div>";
 echo"<div class='column-5'>";
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo13'],$aux)){
-        echo '<h1>'.$plato['tipo13'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo13'].'</h2>'; 
         array_push($aux,(string)$plato['tipo13']);
     }
     if($plato['tipo13']=='Sin gluten'){
@@ -215,7 +215,7 @@ echo"</div>";
 echo"<div class='column-5'>";
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo14'],$aux)){
-        echo '<h1>'.$plato['tipo14'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo14'].'</h2>'; 
         array_push($aux,(string)$plato['tipo14']);
     }
     if($plato['tipo14']=='Postres'){
@@ -250,7 +250,7 @@ echo"</div>";
 echo"<div class='column-5'>";
 foreach($menu->plato as $plato){
     if(!in_array((string)$plato['tipo15'],$aux)){
-        echo '<h1>'.$plato['tipo15'].'</h2>'; 
+        echo '<h1 style="color: black">'.$plato['tipo15'].'</h2>'; 
         array_push($aux,(string)$plato['tipo15']);
     }
     if($plato['tipo15']=='Infantil'){

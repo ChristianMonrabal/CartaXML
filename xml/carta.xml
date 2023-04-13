@@ -6,12 +6,8 @@
       <description> Tostadas huntadas con foie a la plancha con cebolla caramelizada </description>
       <precio>9,90€</precio>
       <calorias>200 calorias</calorias>
-      <caracteristicas>
-      <item>
-
-      </item>
-      </caracteristicas>
     </plato>
+    
     <plato tipo8="Entrantes">
       <title>Patatas bravas</title>
       <description> Patatas fritas rusticas con salsa hannibal</description>
